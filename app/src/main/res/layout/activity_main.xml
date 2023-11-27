@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/linear"
+    android:background="#A2CFD5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Header"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:fontFamily="serif-monospace"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="@string/text1_view"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:minHeight="48dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/text2_view"
+        />
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:minHeight="48dp"
+        android:hint="@string/text3_view"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cornerRadius="5dp"
+        android:text="Enter"
+        android:backgroundTint="#61B165"
+        android:textColor="#040404"
+        android:textAllCaps="true"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+    <TextView
+        android:id="@+id/suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+
+
+
+</LinearLayout>
